@@ -8,7 +8,7 @@ import Footer from "../components/Footer"
 
 function Home () {
   return (
-    <div>
+    <div className="font-['Open Sans']">
         <Nav />
         <Hero />
         <Experience />
