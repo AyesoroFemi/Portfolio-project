@@ -29,7 +29,6 @@ function Project() {
           <div className="flex text-white pl-4 flex-col justify-center h-full w-full">
             <h1 className="text-3xl font-[700]">Invest Credit Site</h1>
             <a href="/" className="text-xl" target="_blanket border-b-2 border-black">Visit</a>
-            {/* <a href="https://www.youtube.com/@femiayesoro" target="_blanket" className="" > */}
 
           </div>
         </div>
