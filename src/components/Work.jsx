@@ -8,7 +8,7 @@ function Work({ year, company, role, profile, children }) {
         <h5 className="text-2xl font-semibold my-2 text-white">{company}</h5>
       </div>
       <div>
-        <p className="text-2xl text-gray-400 font-semibold w-9/12 md:w-6/12 my-2">{role} {profile}</p>
+        <p className="text-lg md:text-2xl text-gray-400 font-semibold w-9/12 md:w-6/12 my-2">{role} {profile}</p>
       </div>
       <div className="my-2 text-white">
         {children}
