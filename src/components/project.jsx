@@ -1,9 +1,13 @@
 import { BsArrowRight } from "react-icons/bs";
-import S1 from "../assets/s6.png"
+import S1 from "../assets/para.png"
+import P1 from "../assets/invest.png"
+import S2 from "../assets/marriage.png"
+import S3 from "../assets/screen.png"
+import S4 from "../assets/pep.png"
 
 function Project() {
   return (
-    <div className="bg-[#1C1C1C]">
+    <div className="">
       <div className="grid md:grid-cols-2 gap-10 max-w-[1200px] mx-auto py-16 md:py-32 px-4 md:px-12">
         <div className="text-white">
           <p className="text-[#A1A1A1]">Portfolio</p>
@@ -14,30 +18,66 @@ function Project() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
             tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
           </p>
-          <div className="flex mb-8">
+          <div className="flex mb-8 drop-shadow-lg">
             <a
               href="/"
-              className="font-semibold px-6 py-4 mt-8 rounded-full cursor-pointer flex items-center gap-3 text-black bg-[#F9C221]"
+              className="font-semibold px-6 py-4 mt-8 rounded-full cursor-pointer flex items-center gap-3 text-black bg-white"
             >
-              EXPLORE MORE
-              <BsArrowRight />
+              Explore more
+              <BsArrowRight  color="black"/>
             </a>
           </div>
         </div>
-        <div className="rounded-md bg-gradient-to-r from-stone-900 via-stone-700 to-neutral-500 min-h-[300px] relative md:min-h-[100px] row-span-2">
-          <img className="w-full h-full absolute object-cover mix-blend-overlay" src={S1} alt=""/>
-          <div className="flex text-white pl-4 flex-col justify-center h-full w-full">
-            <h1 className="text-3xl font-[700]">Invest Credit Site</h1>
-            <a href="/" className="text-xl" target="_blanket border-b-2 border-black">Visit</a>
+        <div className="h-[250px] bg-[#2e3039] relative md:min-h-[100px] md:h-[350px] drop-shadow-lg row-span-2">
+          <img src={P1} alt="project_display"/>
 
-          </div>
+          <div className="flex px-8 pt-4 text-white justify-between items-center">
+             <h1 className="text-sm md:text-xl font-[600]">Invest Trust Limited</h1> 
+             <div className="border-b-[.5px] pb-1 border-white">
+                <a href="/" className="text-sm md:text-base" target="_blanket">Show more</a>
+             </div>
+          </div> 
         </div>
-        <div className="min-h-[300px] border-4 border-white md:min-h-[450px] row-span-2">
-          <img src={S1} alt="project_display"/>
+        <div className="h-[280px] bg-[#2e3039] md:min-h-[100px] md:h-[400px] row-span-2 drop-shadow-lg">
+            <img src={S4} alt="project_display"/>
+             <div className="flex px-8 pt-4 text-white justify-between items-center">
+             <h1 className="text-sm md:text-xl font-[600]">Invest Trust Limited</h1> 
+             <div className="border-b-[.5px] pb-1 border-white">
+                <a href="/" className="text-sm md:text-base" target="_blanket">Show more</a>
+             </div>
+          </div> 
+
         </div>
-        <div className="min-h-[300px] border-4 border-white md:min-h-[450px] row-span-2">4</div>
-        <div className="min-h-[300px] border-4 border-white md:min-h-[100px] row-span-2">5</div>
-        <div className="min-h-[300px] border-4 border-white md:min-h-[450px] row-span-2">6</div>
+        <div className="h-[240px] bg-[#2e3039] md:min-h-[100px] md:h-[330px] drop-shadow-lg">
+            <img src={S2} alt="project_display"/>
+
+            <div className="flex px-8 pt-4 text-white justify-between items-center">
+             <h1 className="text-sm md:text-xl font-[600]">Invest Trust Limited</h1> 
+             <div className="border-b-[.5px] pb-1 border-white">
+                <a href="/" className="text-sm md:text-base" target="_blanket">Show more</a>
+             </div>
+          </div> 
+        </div>
+        <div className="h-[250px] bg-[#2e3039] md:min-h-[100px] md:h-[350px] row-span-2 drop-shadow-lg">
+              <img src={S1} alt="project_display"/>
+             <div className="flex px-8 pt-4 text-white justify-between items-center">
+             <h1 className="text-sm md:text-xl font-[600]">Invest Trust Limited</h1> 
+             <div className="border-b-[.5px] pb-1 border-white">
+                <a href="/" className="text-sm md:text-base" target="_blanket">Show more</a>
+             </div>
+          </div> 
+
+        </div>
+        <div className="h-[250px] bg-[#2e3039] md:min-h-[100px] md:h-[350px] row-span-2 drop-shadow-lg">
+              <img src={S3} alt="project_display"/>
+             <div className="flex px-8 pt-4 text-white justify-between items-center">
+             <h1 className="text-sm md:text-xl font-[600]">Invest Trust Limited</h1> 
+             <div className="border-b-[.5px] pb-1 border-white">
+                <a href="/" className="text-sm md:text-base" target="_blanket">Show more</a>
+             </div>
+          </div> 
+
+        </div>
       </div>
     </div>
   );

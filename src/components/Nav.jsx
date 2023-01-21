@@ -5,22 +5,22 @@ import {Link} from "react-router-dom"
 
 function Nav() {
   return (
-    <div className="bg-[#1C1C1C] fixed w-full z-50">
+    <div className="bg-[#1f2028] fixed w-full z-50">
       <nav className="pl-4 flex items-center justify-between text-white py-4 max-w-[1440px] mx-auto md:px-12">
         <div className="flex basis-1/2 gap-10">
           <div className="">
             <img
-              className="rounded-full z-50 ring ring-offset-[.5px] ring-[#F9C221] w-[40px] h-[40px]"
+              className="rounded-full z-50 ring ring-offset-[.5px] ring-white w-[40px] h-[40px]"
               src={Logo}
               alt="nav__logo"
             />
           </div>
-          <div className="hidden md:flex items-center space-x-1">
-            <MdPhoneIphone size={24} color="#F9C221" />
+          <div className="hidden text-gray-400 md:flex items-center space-x-1">
+            <MdPhoneIphone size={24} color="white" />
             <p>+2349132717758</p>
           </div>
-          <div className="hidden md:flex items-center space-x-1">
-            <HiOutlineMail size={24} color="#F9C221" />
+          <div className="hidden text-gray-400 md:flex items-center space-x-1">
+            <HiOutlineMail size={24} color="white" />
             <p>ayesorofemi@gmail.com</p>
           </div>
         </div>

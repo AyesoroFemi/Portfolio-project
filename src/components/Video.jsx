@@ -7,11 +7,11 @@ import { FiArrowUpRight } from 'react-icons/fi';
 
 function Video() {
   return (
-    <div className="bg-[#1C1C1C]">
+    <div className="">
         <p className="border-t-[.5px] border-slate-400 pt-[100px]"></p>
         <div className="max-w-[1440px] pt-12 pt-5 md:py-4 mx-auto px-4 md:px-12">
-            <div className="flex justify-between pb-10 flex-wrap">
-                <h1 className="text-3xl text-white">Latest videos</h1>
+            <div className="flex justify-between pb-10 flex-wrap items-center">
+                <h1 className="text-2xl text-white">Latest videos</h1>
                 <div className="flex gap-2">
                     <a className="text-white" href="">Browse more videos</a>
                     <span className="-translate-y-2"><FiArrowUpRight size={24} color="#fff" /></span>

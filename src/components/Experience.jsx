@@ -1,16 +1,17 @@
 import Work from "./Work";
 
+// bg-[#1f2028]
 function Experience() {
   return (
-    <div className="text-black">
-      <div className="py-16 md:py-32 px-4 md:px-12 text-black max-w-[1440px] mx-auto">
-        <h1 className="md:text-center text-4xl	font-semibold">My Experience</h1>
-        <div className="flex md:justify-center">
+    <div className="text-white mr-4 bg-[#1f2028] mx-4 md:mr-10 md:ml-12 text-black max-w-[1440px] mx-auto">
+      <div className="bg-[#2e3039] rounded-xl py-32 ml-4 px-8">
+        <h1 className="md:text-center text-4xl text-white	font-semibold">My Experience</h1>
+        <div className="flex md:justify-center drop-shadow-lg">
           <a
             href="/"
-            className="font-semibold px-6 py-4 mt-8 rounded-full cursor-pointer flex items-center gap-3 text-black bg-[#F9C221]"
+            className="font-semibold px-6 py-4 mt-8 rounded-full cursor-pointer flex items-center gap-3 text-black bg-white"
           >
-            DOWNLOAD CV
+            Download CV
           </a>
         </div>
         <Work
@@ -19,7 +20,7 @@ function Experience() {
           role="Frontend / Fullstack"
           profile="Engineer"
         >
-          <p className="text-sm	">
+          <p className="text-sm">
             Develops scalable, reusable web application for admitting new
             students into the decagon institute(portal). <br />
             Translate UI/UX designs into scalable and responsive web

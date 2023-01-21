@@ -8,41 +8,41 @@ import { HiOutlineMail } from "react-icons/hi";
 
 function Footer() {
   return (
-    <div className="bg-[#1C1C1C] text-white pt-32">
+    <div className="text-white pt-32">
         <div className="max-w-[1440px] px-4 md:px-12 mx-auto">
             <p className="border-t-[.5px] border-slate-400 pt-[50px]"></p>
         </div>
         <div className="grid gap-10 md:grid-cols-3 py-8 md:py-4 px-4 md:px-12 max-w-[1440px] mx-auto">
             <div>
                 <h1 className="py-4 text-xl">Page</h1>
-                <a className="block font-[200]" href="#">
+                <a className="block text-gray-400" href="#">
                     Home
                 </a>
-                <a className="block font-[200]" href="/about">
+                <a className="block text-gray-400" href="/about">
                     About
                 </a>
-                <a className="block  font-[200]" href="/project">
+                <a className="block text-gray-400"  href="/project">
                     Projects
                 </a>
-                <a className="block  font-[200]" href="/contact">
+                <a className="block text-gray-400" href="/contact">
                     Contact
                 </a>
             </div>
             <div>
                 <h1 className="py-4 text-xl">Contacts</h1>
                 <div className="flex gap-2 items-center">
-                    <span> <HiOutlineMail size={24} color="#F9C221" /> </span>
-                    <p className="font-[200]">ayesorofemi@gmail.com</p>
+                    <span> <HiOutlineMail size={24} color="#fff" /> </span>
+                    <p className="text-gray-400">ayesorofemi@gmail.com</p>
                 </div>
                <div className="flex gap-2 mt-4 items-center">
-                <span><MdPhoneIphone size={24} color="#F9C221" /></span>
-                 <p className="font-[200]">+2349132717758</p>
+                <span><MdPhoneIphone size={24} color="#fff" /></span>
+                 <p className="text-gray-400">+2349132717758</p>
                </div>
             </div>
             <div>
                  <h1 className="py-4 text-xl">Tech Stacks</h1>
-                 <div className="font-[200]">
-                    <p>Javascript,  Typescript</p>
+                 <div className="text-gray-400">
+                    <p>Javascript,  Typescript, Redux</p>
                   <p>React js,  Remix.js, Vue</p>
                  <p>Tailwindcss,  Bootstrap, HTML & CSS</p>
                  <p>Python, Java, Spring boot</p>
@@ -53,7 +53,7 @@ function Footer() {
             <p className="border-t-[.5px] border-slate-400"></p>
         </div>
         <div className="max-w-[1440px] px-4 md:px-12 py-4 mx-auto pt-4 pb-8 flex flex-wrap justify-between">
-            <p>Copyright  &copy; Femiayesoro.com 2023</p>
+            <p>Copyright  &copy; Femiayesoro 2023</p>
             <div className="flex gap-8 items-center mt-2">
                  <div className="p-1 ring rounded-md ring-offset-[2] bg-white ring-[#F9C221]">
                     <a href="https://twitter.com/ayesorofemi" target="_blanket" className="">
