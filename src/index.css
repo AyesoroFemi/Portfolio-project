@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 /* font-family: 'Lora', serif; */
-/* font-family: 'Open Sans', sans-serif; */
-font-family: 'Nunito Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+/* /* font-family: 'Nunito Sans', sans-serif; */
 
-@font-face {
+/* @font-face {
   font-family: 'Matter';
   font-weight: 400;
   src: local(''), url(./fonts/Matter-Regular.otf) format('opentype');
-}
+}  */

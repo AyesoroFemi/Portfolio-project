@@ -9,12 +9,12 @@ function Video() {
   return (
     <div className="">
         <p className="border-t-[.5px] border-slate-400 pt-[100px]"></p>
-        <div className="max-w-[1440px] pt-12 pt-5 md:py-4 mx-auto px-4 md:px-12">
+        <div className="container pt-12 pt-5 md:py-4 mx-auto px-4 md:px-12">
             <div className="flex justify-between pb-10 flex-wrap items-center">
-                <h1 className="text-2xl text-white">Latest videos</h1>
+                <h1 className="text-2xl text-white dark:text-black">Latest videos</h1>
                 <div className="flex gap-2">
-                    <a className="text-white" href="">Browse more videos</a>
-                    <span className="-translate-y-2"><FiArrowUpRight size={24} color="#fff" /></span>
+                    <a className="text-white dark:text-black" href="">Browse more videos</a>
+                    <span className="-translate-y-2 dark:text-black"><FiArrowUpRight size={24} /></span>
                 </div>
             </div>
         <div className="grid gap-10 w-full md:grid-cols-3">
@@ -29,22 +29,22 @@ function Video() {
                         // allowfullscreen
                     ></iframe>
             </div>
-            <h1 className="text-white text-2xl mt-4">CSS RESPONSIVE WEB DESIGN</h1>
+            <h1 className="text-white text-xl mt-4 dark:text-black">CSS RESPONSIVE WEB DESIGN</h1>
             <div className="flex gap-4">
-                <div className="flex gap-2 text-white">
-                <p>< BiTimeFive size={24} color="#fff"/></p>
-                    <p>120 MIN</p>
+                <div className="flex gap-2 text-white dark:text-black">
+                <p className="dark:text-black">< BiTimeFive size={24} /></p>
+                    <p className="dark:text-black">120 MIN</p>
                 </div>
-                <div><BsDashLg size={24} color="#fff"/></div>
-                <div className="flex item-center gap-2">
-                    <p><IoCalendarClearOutline size={24} color="#fff" /></p>
-                    <span className="text-white">10/29/2023</span>
+                <div className="text-white dark:text-black"><BsDashLg size={24}/></div>
+                <div className="flex item-center gap-2 dark:text-black">
+                    <p className="text-white dark:text-black"><IoCalendarClearOutline size={24} /></p>
+                    <span className="text-white dark:text-black">10/29/2023</span>
                 </div> 
             </div>
            </div>
             <div className="hidden md:relative h-[300px] md:block">
                 <div className="relative h-[300px]">
-               <iframe
+                    <iframe
                         className="h-[300px] w-full absolute rounded-xl"
                         src="https://www.youtube.com/embed/i6A6lE5Zxp0"
                         title="YouTube video player"
@@ -52,17 +52,17 @@ function Video() {
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         // allowfullscreen
                     ></iframe>
-            </div>
-                    <h1 className="text-white text-2xl mt-4">CSS RESPONSIVE WEB DESIGN</h1>
-                    <div className="flex gap-4">
-                <div className="flex gap-2 text-white">
-                <p>< BiTimeFive size={24} color="#fff"/></p>
-                    <p>120 MIN</p>
                 </div>
-                <div><BsDashLg size={24} color="#fff"/></div>
-                <div className="flex item-center gap-2">
-                    <p><IoCalendarClearOutline size={24} color="#fff" /></p>
-                    <span className="text-white">10/29/2023</span>
+                 <h1 className="text-white text-xl mt-4 dark:text-black">CSS RESPONSIVE WEB DESIGN</h1>
+            <div className="flex gap-4">
+                <div className="flex gap-2 text-white dark:text-black">
+                <p className="dark:text-black">< BiTimeFive size={24} /></p>
+                    <p className="dark:text-black">120 MIN</p>
+                </div>
+                <div className="text-white dark:text-black"><BsDashLg size={24}/></div>
+                <div className="flex item-center gap-2 dark:text-black">
+                    <p className="text-white dark:text-black"><IoCalendarClearOutline size={24} /></p>
+                    <span className="text-white dark:text-black">10/29/2023</span>
                 </div> 
             </div>
             </div>
@@ -78,16 +78,16 @@ function Video() {
                         // allowfullscreen
                     ></iframe>
             </div>
-                        <h1 className="text-white text-2xl mt-4">CSS RESPONSIVE WEB DESIGN</h1>
-                        <div className="flex gap-4">
-                <div className="flex gap-2 text-white">
-                <p>< BiTimeFive size={24} color="#fff"/></p>
-                    <p>120 MIN</p>
+                         <h1 className="text-white text-xl mt-4 dark:text-black">CSS RESPONSIVE WEB DESIGN</h1>
+            <div className="flex gap-4">
+                <div className="flex gap-2 text-white dark:text-black">
+                <p className="dark:text-black">< BiTimeFive size={24} /></p>
+                    <p className="dark:text-black">120 MIN</p>
                 </div>
-                <div><BsDashLg size={24} color="#fff"/></div>
-                <div className="flex item-center gap-2">
-                    <p><IoCalendarClearOutline size={24} color="#fff" /></p>
-                    <span className="text-white">10/29/2023</span>
+                <div className="text-white dark:text-black"><BsDashLg size={24}/></div>
+                <div className="flex item-center gap-2 dark:text-black">
+                    <p className="text-white dark:text-black"><IoCalendarClearOutline size={24} /></p>
+                    <span className="text-white dark:text-black">10/29/2023</span>
                 </div> 
             </div>
             </div>
