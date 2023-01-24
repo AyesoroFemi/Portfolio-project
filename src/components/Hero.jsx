@@ -1,6 +1,4 @@
 import { FaPlay } from "react-icons/fa";
-import Logo from "../assets/fms.png";
-
 function Hero() {
   return (
     // #1C1C1C
@@ -28,7 +26,7 @@ function Hero() {
           </div>
         </div>
         <div className="w-[92%] mt-4 md:max-w-[100%] md:z-50">
-          <img className=" md:w-[100%] h-[100%]" src={Logo} alt="" />
+          <img className=" md:w-[100%] h-[100%]" src="https://res.cloudinary.com/dvwbbiu0g/image/upload/v1674567900/personal/fms_wpoaxc.png" alt="" />
         </div>
       </div>
     </div>

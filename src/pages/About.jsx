@@ -1,5 +1,4 @@
 import React, {useEffect} from 'react'
-import Pic from '../assets/emma.png'
 import Footer from '../components/Footer'
 
 const About = () => {
@@ -10,7 +9,7 @@ const About = () => {
     <div className="bg-[#1f2028] dark:bg-white">
         <div className= "container px-4 pt-32 mx-auto grid gap-10 md:grid-cols-[40%_50%]">
             <div className="">
-                <img className="" src={Pic} alt="personal_picture"/>
+                <img className="" src="https://res.cloudinary.com/dvwbbiu0g/image/upload/v1674567907/personal/emma_ofmwt4.png" alt="personal_picture"/>
             </div>
             <div className="justify-self-end ">
                 <p className="text-2xl dark:text-white">
