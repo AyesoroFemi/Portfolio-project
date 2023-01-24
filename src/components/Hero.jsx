@@ -4,7 +4,7 @@ function Hero() {
     // #1C1C1C
     // [#18191F]
     <div className="z-10">
-      <div className="container mx-auto grid md:grid-cols-[50%_50%] pl-4 md:pl-16 h-[95%] text-white dark:text-black pt-4">
+      <div className="max-w-[1290px] mx-auto grid md:grid-cols-[50%_50%] pl-4 md:pl-16 h-[95%] text-white dark:text-black pt-4">
         <div className="mt-[25%]">
           <div className="">
             <p className="mb-4 text-gray-400 text-lg dark:text-gray-400 font-bold">Frontend Developer</p>
