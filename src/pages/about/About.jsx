@@ -6,7 +6,7 @@ const About = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="bg-[#1f2028] dark:bg-white">
+    <div className="font-['Matter'] bg-[#1f2028] dark:bg-white">
       <div className="max-w-[1200px] px-4 md:px-12 pt-32 mx-auto grid gap-10 md:grid-cols-[40%_50%]">
         <div className="">
           <img

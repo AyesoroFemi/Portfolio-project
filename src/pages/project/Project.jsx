@@ -12,7 +12,7 @@ function Project() {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="pt-20  bg-[#1f2028] dark:bg-white">
+    <div className="font-['Matter'] pt-20  bg-[#1f2028] dark:bg-white">
       <div className="grid max-w-[1440px] px-4 md:px-12 mx-auto  md:grid-cols-2 xl:grid-cols-3 gap-10">
         <div className="h-[85%] bg-[#2e3039] dark:bg-gray-100 md:min-h-[100px] px-2 py-2 md:h-[470px] row-span-2 mb-24">
           <img src={P1} alt="project_display" />
@@ -47,10 +47,12 @@ function Project() {
             </span>
           </div>
         </div>
-        <div className="h-[85%] bg-[#2e3039] dark:bg-gray-100 md:min-h-[100px] px-2 py-2 md:h-[430px] row-span-2 mb-24">
+        <div className="h-[85%] bg-[#2e3039] dark:bg-gray-100 md:min-h-[100px] px-2 py-2 md:h-[470px] row-span-2 mb-24">
           <img src={S5} alt="project_display" />
           <p className="text-white mt-4 px-4 text-sm dark:text-black">
-            Software Engineer Portfolio
+            I enjoy building user interfaces and working on the frontend
+            development of the web, I am very open to learning new and existing
+            tools, frameworks, and languages
           </p>
           <div className="flex px-4 pt-4 text-white justify-between items-center">
             <h1 className="text-sm md:text-xl font-[600] dark:text-black">
@@ -214,7 +216,7 @@ function Project() {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

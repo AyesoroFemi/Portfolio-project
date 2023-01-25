@@ -29,12 +29,12 @@ function Nav({ mode, dark }) {
           <div onClick={() => mode(!dark)} className="mr-6 cursor-pointer">
             <BsFillMoonStarsFill size={24} className="dark:text-black" />
           </div>
-          <Link className="mr-6" to="/">
+          {/* <Link className="mr-6" to="/">
             Project
           </Link>
           <Link className="mr-6" to="/">
             Contact
-          </Link>
+          </Link> */}
         </div>
         <div
           onClick={() => mode(!dark)}

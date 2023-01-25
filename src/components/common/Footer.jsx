@@ -6,6 +6,8 @@ import { MdPhoneIphone } from "react-icons/md";
 import { HiOutlineMail } from "react-icons/hi";
 
 function Footer() {
+  const mailtoHref =
+    "mailto:ayesorofemi@gmail.com?subject=SendMail&body=Description";
   return (
     <div className="max-w-[1200px] text-white pt-16 mx-auto px-4 md:px-12">
       <div className="bg-[#2e3039] dark:bg-gray-100 py-8 px-4 md:px-8 rounded-xl grid gap-10 md:grid-cols-3 md:py-4">
@@ -20,7 +22,7 @@ function Footer() {
           <a className="block text-gray-400 dark:text-black" href="/project">
             Projects
           </a>
-          <a className="block text-gray-400 dark:text-black" href="/contact">
+          <a className="block text-gray-400 dark:text-black" href={mailtoHref}>
             Contact
           </a>
         </div>
