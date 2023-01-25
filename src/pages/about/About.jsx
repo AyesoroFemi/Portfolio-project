@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Footer from "../components/Footer";
+import Footer from "../../components/common/Footer";
 
 const About = () => {
   useEffect(() => {
@@ -16,7 +16,7 @@ const About = () => {
           />
         </div>
         <div className="justify-self-end ">
-          <p className="text-base md:text-2xl dark:text-white">
+          <p className="text-base md:text-xl dark:text-white">
             <span className="block py-4 text-white dark:text-black">
               I am a software engineer, primarily started as a frontend engineer
               and I have gained and explored every other aspect of software

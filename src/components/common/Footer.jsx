@@ -50,7 +50,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="container px-4 md:px-12 py-4 mx-auto pt-4 pb-8 flex flex-wrap justify-between">
+      <div className="px-4 py-4 mx-auto pt-4 pb-8 flex flex-wrap justify-between">
         <p className="dark:text-black">Copyright &copy; Femiayesoro 2023</p>
         <div className="flex gap-8 items-center mt-2">
           <div className="p-1 ring rounded-md ring-offset-[2] bg-white ring-[#F9C221]">
