@@ -1,49 +1,43 @@
+// import React, { useState } from "react";
+// import { Document, Page } from "react-pdf";
+
+// const Navbar = (props) => {
+//   const [numPages, setNumPages] = useState(null);
+
+//   function onDocumentLoadSuccess({ numPages }) {
+//     setNumPages(numPages);
+//   }
+
+//   const { pdf } = props;
+
+//   return (
+//     <Document
+//       file={pdf}
+//       options={{ workerSrc: "/pdf.worker.js" }}
+//       onLoadSuccess={onDocumentLoadSuccess}
+//     >
+//       {Array.from(new Array(numPages), (el, index) => (
+//         <Page key={`page_${index + 1}`} pageNumber={index + 1} />
+//       ))}
+//     </Document>
+//   );
+// };
+
+// export default Navbar;
+
 import React from 'react'
 
-const Navbar = () => {
+function Navbar() {
   return (
-   <Navbar
-  fluid={true}
-  rounded={true}
->
-  <Navbar.Brand href="https://flowbite.com/">
-    <img
-      src="https://flowbite.com/docs/images/logo.svg"
-      className="mr-3 h-6 sm:h-9"
-      alt="Flowbite Logo"
-    />
-    <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-      Flowbite
-    </span>
-  </Navbar.Brand>
-  <div className="flex md:order-2">
-    <Button>
-      Get started
-    </Button>
-    <Navbar.Toggle />
-  </div>
-  <Navbar.Collapse>
-    <Navbar.Link
-      href="/navbars"
-      active={true}
-    >
-      Home
-    </Navbar.Link>
-    <Navbar.Link href="/navbars">
-      About
-    </Navbar.Link>
-    <Navbar.Link href="/navbars">
-      Services
-    </Navbar.Link>
-    <Navbar.Link href="/navbars">
-      Pricing
-    </Navbar.Link>
-    <Navbar.Link href="/navbars">
-      Contact
-    </Navbar.Link>
-  </Navbar.Collapse>
-</Navbar>
-  )
+    <div>
+      <iframe className='w-1/2 mx-auto h-[800px]'
+        src="https://drive.google.com/file/d/1kmekeIaUlhr2jr9zOq1sE71TEhsl3M4P/preview"
+        // width="640"
+        // height="480"
+        allow="autoplay"
+      ></iframe>
+    </div>
+  );
 }
 
 export default Navbar

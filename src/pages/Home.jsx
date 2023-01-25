@@ -13,15 +13,15 @@ function Home () {
    }, []);
   return (
     <div className="font-['Open Sans'] bg-[#1f2028] dark:bg-white">
-        {/* <Navbar/> */}
-        <Hero />
-        <Experience />
+      <Hero />
+      <Experience />
       {/* <Project /> */}
       <Card />
-      <Video/>
+      <Video />
+      {/* <Navbar /> */}
       <Footer />
     </div>
-  )
+  );
 }
 
 export default Home
