@@ -10,8 +10,8 @@ const Contact = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="font-['Matter'] h-[100vh] bg-[#1f2028] dark:bg-white pt-20">
-      <div className="grid md:grid-cols-2 max-w-[1440px] px-4 md:px-12 mx-auto">
+    <div className="font-['Matter'] h-[100vh] bg-[#1f2028] dark:bg-white pt-24">
+      <div className="h-full grid md:grid-cols-2 max-w-[1440px] px-4 md:px-12 mx-auto pb-20">
         <div className="ml-2 lg:p-32 md:mt-32 lg:mt-0">
           <p className="dark:text-black text-3xl lg:text-5xl mb-4 text-white">
             Get in touch
