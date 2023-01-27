@@ -1,13 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaGithub, FaLinkedinIn, FaYoutube } from "react-icons/fa";
-import { BsTwitter } from "react-icons/bs";
 import { MdPhoneIphone } from "react-icons/md";
 import { HiOutlineMail } from "react-icons/hi";
+import SocialIcons from "./SocialIcons";
 
 function Footer() {
-  const mailtoHref =
-    "mailto:ayesorofemi@gmail.com?subject=SendMail&body=Description";
+  // const mailtoHref =
+  //   "mailto:ayesorofemi@gmail.com?subject=SendMail&body=Description";
   return (
     <div className="max-w-[1200px] text-white pt-16 mx-auto px-4 md:px-12">
       <div className="bg-[#2e3039] dark:bg-gray-100 py-8 px-4 md:px-8 rounded-xl grid gap-10 md:grid-cols-3 md:py-4">
@@ -16,15 +15,15 @@ function Footer() {
           <Link className="block text-gray-400 dark:text-black" to="/">
             Home
           </Link>
-          <Link className="block text-gray-400 dark:text-black" to="/about">
+          <Link className="block text-gray-400 dark:text-black" to="about">
             About
           </Link>
-          <a className="block text-gray-400 dark:text-black" href="/project">
+          <a className="block text-gray-400 dark:text-black" href="project">
             Projects
           </a>
-          <a className="block text-gray-400 dark:text-black" href={mailtoHref}>
+          <Link to="contact" className="block text-gray-400 dark:text-black">
             Contact
-          </a>
+          </Link>
         </div>
         <div className="md:py-8">
           <h1 className="py-4 text-xl dark:text-black">Contacts</h1>
@@ -52,46 +51,9 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="px-4 py-4 mx-auto pt-4 pb-8 flex flex-wrap justify-between">
+      <div className="px-4 py-4 mx-auto pt-4 pb-8 flex items-center flex-wrap justify-between">
         <p className="dark:text-black">Copyright &copy; Femiayesoro 2023</p>
-        <div className="flex gap-8 items-center mt-2">
-          <div className="p-1 ring rounded-md ring-offset-[2] bg-white ring-[#F9C221]">
-            <a
-              href="https://twitter.com/ayesorofemi"
-              target="_blanket"
-              className=""
-            >
-              <BsTwitter color="#1DA1F2" size={24} />
-            </a>
-          </div>
-          <div className="p-1 ring rounded-md ring-offset-[5] bg-white ring-[#F9C221]">
-            <a
-              href="https://github.com/AyesoroFemi"
-              target="_blanket"
-              className=""
-            >
-              <FaGithub color="black" size={24} />
-            </a>
-          </div>
-          <div className="p-1 ring rounded-md ring-offset-[5] bg-white ring-[#F9C221]">
-            <a
-              href="https://www.linkedin.com/in/femi-ayesoro-30837683/"
-              target="_blanket"
-              className=""
-            >
-              <FaLinkedinIn color="#0e76a8" size={24} />
-            </a>
-          </div>
-          <div className="p-1 ring rounded-md ring-offset-[5] bg-white ring-[#F9C221]">
-            <a
-              href="https://www.youtube.com/@femiayesoro"
-              target="_blanket"
-              className=""
-            >
-              <FaYoutube color="#FF0000" size={24} />
-            </a>
-          </div>
-        </div>
+        <SocialIcons />
       </div>
     </div>
   );

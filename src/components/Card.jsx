@@ -16,8 +16,8 @@ function Card() {
             All Creative Works, Selected Projects
           </h1>
           <p className="mt-4 text-[#A1A1A1] dark:text-black">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            This section is a collection of all my recent projects and I have a more
+            web application in progress
           </p>
           <div className="flex mb-8 drop-shadow-lg">
             <Link

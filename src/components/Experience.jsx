@@ -19,10 +19,10 @@ function Experience() {
           </a>
         </div>
         <Work
-          year="2021-2023"
+          year="Jul 2021 - Present"
           company="Decagon"
-          role="Frontend / Fullstack"
-          profile="Engineer"
+          role="Software Engineer"
+          profile=""
         >
           <p className="text-sm dark:text-black">
             Develops scalable, reusable web application for admitting new
@@ -32,29 +32,28 @@ function Experience() {
           </p>
         </Work>
         <Work
-          year="2021-2023"
-          company="Decagon"
-          role="Frontend / Fullstack"
-          profile="Engineer"
+          year="Dec 2021 - Mar 2022"
+          company="GeoCloud (USA)"
+          role="Frontend Engineer"
+          profile=""
         >
           <p className="text-sm dark:text-black">
-            Develops scalable, reusable web application for admitting new
-            students into the decagon institute(portal). Translate UI/UX designs
-            into scalable and responsive web applications(Decagon Institute
-            website)."
+            Translate UI/UX designs into scalable and responsive web
+            applications. <br /> Build uGeo web application that allows users to
+            engage with the community around them
           </p>
         </Work>
         <Work
-          year="2021-2023"
-          company="Decagon"
-          role="Frontend / Fullstack"
-          profile="Engineer"
+          year="Jul 2020 - Jan 2022"
+          company="Pepcoders"
+          role="Fullstack Engineer"
+          profile=""
         >
           <p className="text-sm dark:text-black">
-            Develops scalable, reusable web application for admitting new
-            students into the decagon institute(portal). Translate UI/UX designs
-            into scalable and responsive web applications(Decagon Institute
-            website)."
+            Developing scalable and testable applications using backend and
+            frontend technologies including ReactJs, NodeJs, ExpressJs, and
+            MongoDB. <br /> Knowledge of Git practices via GitHub, GitLab, and
+            git bash
           </p>
         </Work>
       </div>

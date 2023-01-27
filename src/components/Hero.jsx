@@ -1,11 +1,12 @@
 import { useState } from "react";
 import { FaPlay } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import ResumeVideo from "./ResumeVideo";
 function Hero() {
   const [showCv, setShowCv] = useState(false);
 
-  const mailtoHref =
-    "mailto:ayesorofemi@gmail.com?subject=SendMail&body=Description";
+  // const mailtoHref =
+  //   "mailto:ayesorofemi@gmail.com?subject=SendMail&body=Description";
 
   return (
     <div className="z-10">
@@ -32,12 +33,13 @@ function Hero() {
             </div>
             <div className="w-[90%] flex drop-shadow-lg">
               {" "}
-              <a
-                href={mailtoHref}
+              <Link
+                to="contact"
+                // href={mailtoHref}
                 className="font-semibold px-14 mb-8 py-4 mt-2 rounded-full cursor-pointer flex items-center gap-3  border-2 border-white dark:border-black"
               >
                 Get in touch
-              </a>
+              </Link>
             </div>
           </div>
         </div>
