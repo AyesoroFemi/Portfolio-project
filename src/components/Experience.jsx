@@ -19,7 +19,7 @@ function Experience() {
           </a>
         </div>
         <Work
-          year="Jul 2021 - Present"
+          year="Jul 2021 - 2023"
           company="Decagon"
           role="Software Engineer"
           profile=""
