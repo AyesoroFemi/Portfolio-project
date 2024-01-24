@@ -2,8 +2,9 @@ import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 import S1 from "../assets/para.png";
 import P1 from "../assets/invest.png";
-import S4 from "../assets/pep.png";
-import S5 from "../assets/femia.png";
+import S3 from "../assets/screen.png";
+// import S4 from "../assets/pep.png";
+// import S5 from "../assets/femia.png";
 import { Link } from "react-router-dom";
 
 function Card() {
@@ -21,7 +22,7 @@ function Card() {
           </p>
           <div className="flex mb-8 drop-shadow-lg">
             <Link
-              to="project"
+              to="/"
               className="font-semibold px-6 py-4 mt-8 rounded-full cursor-pointer flex items-center gap-3 text-black bg-white dark:bg-black dark:text-white"
             >
               Explore more
@@ -42,7 +43,7 @@ function Card() {
             </h1>
             <div className="border-b-[.5px] pb-1 border-white dark:border-black dark:text-black">
               <a
-                href="https://investtrustcredit.com/"
+                href="https://invest-trust.netlify.app/"
                 className="text-sm md:text-base"
                 target="_blanket"
               >
@@ -62,20 +63,21 @@ function Card() {
             </span>
           </div>
         </div>
+        
         <div className="h-[85%] bg-[#2e3039] dark:bg-gray-100 md:min-h-[100px] px-2 py-2 md:h-[460px] row-span-2 mb-24">
-          <img src={S5} alt="project_display" />
+          <img src={S3} alt="project_display" />
           <p className="text-white mt-4 px-4 text-sm dark:text-black">
-            I enjoy building user interfaces and working on the frontend
-            development of the web, I am very open to learning new and existing
-            tools, frameworks, and languages
+          Showing greater respect to older adults can be done in several ways,
+            acknowledging and putting to use the talents and skills of older
+            adults;
           </p>
           <div className="flex px-4 pt-4 text-white justify-between items-center">
             <h1 className="text-sm md:text-xl font-[600] dark:text-black">
-              Portfolio
+              INTERVENTION
             </h1>
             <div className="border-b-[.5px] pb-1 border-white dark:border-black dark:text-black">
               <a
-                href="https://femiayesoro.com/"
+                href="https://intervention-website.netlify.app/"
                 className="text-sm md:text-base"
                 target="_blanket"
               >
@@ -88,9 +90,6 @@ function Card() {
               React js
             </span>
             <span className="rounded-xl p-1 ml-1 mr-1 px-2 text-black bg-white dark:bg-black dark:text-white">
-              Remix.js
-            </span>
-            <span className="rounded-xl p-1 ml-1 mr-1 px-2 text-black bg-white dark:bg-black dark:text-white">
               TailwindCss
             </span>
             <span className="rounded-xl p-1 ml-3 md:ml-1 mr-1 px-2 text-black bg-white dark:bg-black dark:text-white">
@@ -98,7 +97,8 @@ function Card() {
             </span>
           </div>
         </div>
-        <div className="h-[85%] bg-[#2e3039] dark:bg-gray-100 md:min-h-[100px] px-2 py-2 md:h-[480px] row-span-2 mb-24">
+
+        {/* <div className="h-[85%] bg-[#2e3039] dark:bg-gray-100 md:min-h-[100px] px-2 py-2 md:h-[480px] row-span-2 mb-24">
           <img src={S4} alt="project_display" />
           <p className="text-white mt-4 px-4 text-sm dark:text-black">
             We’re an award-winning full-service design agency that build
@@ -129,7 +129,7 @@ function Card() {
               HTML&CSS
             </span>
           </div>
-        </div>
+        </div> */}
         <div className="h-[85%] bg-[#2e3039] dark:bg-gray-100 md:min-h-[100px] px-2 py-2 md:h-[450px] row-span-2 mb-24">
           <img src={S1} alt="project_display" />
           <p className="text-white mt-4 px-4 text-sm dark:text-black">

@@ -18,7 +18,7 @@ function Footer() {
           <Link className="block text-gray-400 dark:text-black" to="about">
             About
           </Link>
-          <a className="block text-gray-400 dark:text-black" href="project">
+          <a className="block text-gray-400 dark:text-black" href="/">
             Projects
           </a>
           <Link to="contact" className="block text-gray-400 dark:text-black">

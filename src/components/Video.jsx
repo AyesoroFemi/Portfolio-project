@@ -1,7 +1,7 @@
 import React from "react";
-import { BiTimeFive } from "react-icons/bi";
-import { BsDashLg } from "react-icons/bs";
-import { IoCalendarClearOutline } from "react-icons/io5";
+// import { BiTimeFive } from "react-icons/bi";
+// import { BsDashLg } from "react-icons/bs";
+// import { IoCalendarClearOutline } from "react-icons/io5";
 import { FiArrowUpRight } from "react-icons/fi";
 
 function Video() {
@@ -23,19 +23,14 @@ function Video() {
         <div className="grid gap-10 w-full md:grid-cols-3 ">
           <div>
             <div className="relative h-[250px]">
-              <iframe
-                className="h-[250px] w-full absolute rounded-xl"
-                src="https://www.youtube.com/embed/i6A6lE5Zxp0"
-                title="YouTube video player"
-                // frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                // allowfullscreen
+            <iframe className="h-[250px] w-full absolute rounded-xl"
+            src="https://www.youtube.com/embed/MfOfKOXKv2I?si=Sr4ETgH7yaxdxW7K" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
               ></iframe>
             </div>
             <h1 className="text-white text-base md:text-xl mt-4 dark:text-black">
-              CSS RESPONSIVE WEB DESIGN
+               Responsive web design React js & TailwindCss
             </h1>
-            <div className="flex flex-wrap gap-4">
+            {/* <div className="flex flex-wrap gap-4">
               <div className="flex gap-2 text-white dark:text-black">
                 <p className="dark:text-black">
                   <BiTimeFive size={24} />
@@ -51,7 +46,7 @@ function Video() {
                 </p>
                 <span className="text-white dark:text-black">10/29/2023</span>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="hidden md:relative h-[250px] md:block">
             <div className="relative h-[250px]">
@@ -67,7 +62,7 @@ function Video() {
             <h1 className="text-white text-xl mt-4 dark:text-black">
               CSS RESPONSIVE WEB DESIGN
             </h1>
-            <div className="flex flex-wrap gap-4">
+            {/* <div className="flex flex-wrap gap-4">
               <div className="flex gap-2 text-white dark:text-black">
                 <p className="dark:text-black">
                   <BiTimeFive size={24} />
@@ -83,24 +78,30 @@ function Video() {
                 </p>
                 <span className="text-white dark:text-black">10/29/2023</span>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="hidden md:relative h-[250px] md:block">
             <div className="relative h-[250px]">
-              <iframe
+            <iframe className="h-[250px] w-full absolute rounded-xl"
+                src="https://www.youtube.com/embed/zKFuaG7XaFM?si=lyeKSJpd2iE2F3JQ" title="YouTube video player" 
+                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                // allowfullscreen
+                >
+                </iframe>
+              {/* <iframe
                 className="h-[250px] w-full absolute rounded-xl"
-                src="https://www.youtube.com/embed/i6A6lE5Zxp0"
+                src="https://youtu.be/zKFuaG7XaFM?si=lyeKSJpd2iE2F3JQ"
                 title="YouTube video player"
                 // frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 // allowfullscreen
-              ></iframe>
+              ></iframe> */}
             </div>
             <h1 className="text-white text-xl mt-4 dark:text-black">
-              CSS RESPONSIVE WEB DESIGN
+              CRUD REACT PROJECT
             </h1>
-            <div className="flex flex-wrap gap-4">
+            {/* <div className="flex flex-wrap gap-4">
               <div className="flex gap-2 text-white dark:text-black">
                 <p className="dark:text-black">
                   <BiTimeFive size={24} />
@@ -116,7 +117,7 @@ function Video() {
                 </p>
                 <span className="text-white dark:text-black">10/29/2023</span>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

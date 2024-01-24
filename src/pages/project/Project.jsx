@@ -191,7 +191,7 @@ function Project() {
           </p>
           <div className="flex px-4 pt-4 text-white justify-between items-center">
             <h1 className="text-sm md:text-xl font-[600] dark:text-black">
-              Paragon
+              INTERVENTION
             </h1>
             <div className="border-b-[.5px] pb-1 border-white dark:border-black dark:text-black">
               <a

@@ -11,7 +11,7 @@ function Experience() {
         <div className="flex md:justify-center drop-shadow-lg">
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/1kmekeIaUlhr2jr9zOq1sE71TEhsl3M4P/preview"
+            href="https://drive.google.com/file/d/1NdIPSOGEX3xQ6LVtxHqBDxvRCnla5SL0/view?usp=sharing"
             className="font-semibold px-8 py-4 mt-8 rounded-full cursor-pointer flex items-center gap-3 text-black bg-white dark:bg-black dark:text-white"
           >
             Download CV
