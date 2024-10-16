@@ -2,6 +2,7 @@ import { useState } from "react";
 import { FaPlay } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import ResumeVideo from "./ResumeVideo";
+import Fem from "../assets/fem.png"
 function Hero() {
   const [showCv, setShowCv] = useState(false);
 
@@ -47,7 +48,7 @@ function Hero() {
         <div className="w-[92%] mt-4 md:max-w-[100%] md:z-50">
           <img
             className=" md:w-[100%] h-[100%]"
-            src="https://res.cloudinary.com/dvwbbiu0g/image/upload/v1674567900/personal/fms_wpoaxc.png"
+            src={Fem}
             alt=""
           />
         </div>
